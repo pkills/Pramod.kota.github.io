@@ -1,63 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR_ARCHITECT // Unity Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
-  <header>
-    <h1>Pramod.kota</h1>
-    <p>Game Developer | Technical Artist</p>
-  </header>
+    <div class="glow-bg"></div>
+    <div class="grid-overlay"></div>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">VR_DEV<span class="neon-dot">.</span></div>
+            <div class="nav-links">
+                <a href="#projects">WORKS</a>
+                <a href="#about">INFO</a>
+                <a href="#contact" class="nav-cta">SYNC_SESSION</a>
+            </div>
+        </div>
+    </nav>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a passionate web developer with a love for creating modern, responsive websites and applications. I enjoy solving problems and continuously learning new technologies.
-    </p>
-  </section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="status-badge">
+                    <span class="pulse"></span> SYSTEM_ONLINE: REALITY_ENG
+                </div>
+                <h1 class="reveal">Unity & VR <br><span class="animated-gradient">Developer</span></h1>
+                <p class="reveal">Engineering presence through spatial interaction and immersive physics.</p>
+                <div class="hero-btns reveal">
+                    <a href="#projects" class="btn btn-primary">VIEW_PROJECTS</a>
+                    <a href="#contact" class="btn btn-outline">CONNECT</a>
+                </div>
+            </div>
+        </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
+        <section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Developed Protocols<span class="line"></span></h2>
+                <div class="project-grid">
+                    
+                    <div class="project-card glass reveal">
+                        <div class="video-container">
+                            <iframe class="card-video" src="https://www.youtube.com/embed/YOUR_YT_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_YT_ID&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+                            <div class="video-ui-overlay"></div>
+                            <div class="video-hint">STREAM_01: ACTIVE</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>NEON_STRIKE VR</h3>
+                            <p>High-fidelity combat mechanics in Unity HDRP.</p>
+                            <div class="tags"><span>Unity</span><span>Combat</span></div>
+                        </div>
+                    </div>
 
-    <div class="project">
-      <h3>Project One</h3>
-      <p>A brief description of your first project. You can link to it or include a screenshot.</p>
-      <a href="https://github.com/yourusername/project-one" target="_blank">View on GitHub</a>
-    </div>
+                    <div class="project-card glass reveal">
+                        <div class="video-container">
+                            <iframe class="card-video" src="https://www.youtube.com/embed/YOUR_YT_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_YT_ID&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+                            <div class="video-ui-overlay"></div>
+                            <div class="video-hint">STREAM_02: ACTIVE</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>TACTILE_CORE</h3>
+                            <p>Physics-based hand tracking and interaction.</p>
+                            <div class="tags"><span>OpenXR</span><span>C#</span></div>
+                        </div>
+                    </div>
 
-    <div class="project">
-      <h3>Project Two</h3>
-      <p>Description of another project. Mention technologies used like HTML, CSS, JavaScript, etc.</p>
-      <a href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a>
-    </div>
+                </div>
+            </div>
+        </section>
 
-  </section>
+        <section class="section contact" id="contact">
+            <div class="container narrow glass contact-wrap reveal">
+                <h2>Let's build the virtual.</h2>
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" required><label>IDENTIFIER</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" required><label>TRANSMISSION_ID</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary full">SEND_SIGNAL</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Feel free to reach out!</p>
-    <ul>
-      <li>Email: your.email@example.com</li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
-      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
-    </ul>
-  </section>
+    <footer>
+        <div class="footer-line"></div>
+        <p>© 2026 // VR_DEV_PROTCOL</p>
+    </footer>
 
-  <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-  </footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
